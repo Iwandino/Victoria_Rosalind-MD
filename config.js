@@ -14,9 +14,9 @@ import { group } from 'console'
 import PhoneNumber from 'awesome-phonenumber'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-let wibm = moment.tz('Asia/Jakarta').format('mm')
-let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Malaysia').format('HH')
+let wibm = moment.tz('Asia/Malaysia').format('mm')
+let wibs = moment.tz('Asia/Malaysia').format('ss')
 let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
 
 let d = new Date(new Date + 3600000)
@@ -33,45 +33,44 @@ const readMore = more.repeat(4001)
 
 /// Setting Dari Sini
 global.owner = [
-  ['6281282405626', 'Clayza Aubert', true],
+  ['60164669813', 'iwandino', true],
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '6283872069306'
-global.nomorown = '6281282405626'
-global.nomorown1 = '6281282405626'
-global.nomorown2 = '6281282405626'
-global.nomorwa = '6281282405626'
+global.nomorbot = '60138849813'
+global.nomorown = '60164669813'
+global.nomorown1 = '60164669813'
+global.nomorown2 = '60164669813'
+global.nomorwa = '60164669813'
 global.readMore = readMore
-global.author = 'Clara | Clayza | Amelia'
-global.namebot = '​Victoria Rosalind'
-global.wm = '©Victoria Rosalind By Aubert'
+global.author = 'iwan | iwandino | kimeikato'
+global.namebot = 'miyu'
 global.watermark = wm
-global.wm2 = '©Victoria Rosalind By Aubert'
+global.wm2 = '©miyu by iwandino'
 global.botdate = `Date: ${week} ${date}\nTime: ${wktuwib}`
 global.bottime = `Time: ${wktuwib}`
-global.titlebot = `​Victoria Rosalind`
-global.stickpack = '​©Victoria Rosalind'
-global.stickauth = `By Aubert`
+global.titlebot = `miyu`
+global.stickpack = '​©miyu'
+global.stickauth = `By iwandino`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
-global.nameown1 = 'Clayza Aubert' // Optional
-global.nameown2 = 'Clara Aubert' // Optional
+global.nameown1 = 'iwandino' // Optional
+global.nameown2 = 'iwandino' // Optional
 global.thumb = 'https://i.postimg.cc/WbtRbPNN/Victoria-V3-min.jpg' // gambar di menu
 global.leave = 'https://i.postimg.cc/yxvn10Ls/ssstik-io-1689170610318.jpg' /// Untuk BG leave
 
 //Link Social Media Ganti Aja Kalau Ga Punya Biarin Aja
 global.myweb = 'https://clayzaaubert.my.id' //website
-global.sig = 'https://www.instagram.com/Clayza73' //instagram
-global.sgh = 'https://github.com/ClaraAubert' //github
-global.sgc = 'https://chat.whatsapp.com/CFnyHsziHDTHFmnKDVKaSL' //group whatsapp
+global.sig = 'https://www.instagram.com/iwandino' //instagram
+global.sgh = 'https://github.com/iwandino' //github
+global.sgc = 'https://chat.whatsapp.com/' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://www.youtube.com/c/clayzaaubert' //youtube
+global.snh = 'https://www.youtube.com/c/kimeikato' //youtube
 
 //Donasi/Payment
-global.pdana = '081282405626' // Dana
-global.povo = '081282405626' // Ovo
-global.pgopay = '081282405626' // Gopay
+global.bankin = '11117300127871' // bankin
+global.spina = 'pm: 0164669813' // spina
+global.tngduitnow = '181695932615' // tng duit now
 
 /// Api keys
 global.clayza = '' // https://api.clayzaaubert.my.id
